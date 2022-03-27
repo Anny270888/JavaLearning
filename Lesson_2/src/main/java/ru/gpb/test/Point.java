@@ -9,10 +9,8 @@ public class Point {
         this.y = y;
     }
 
-
     public static Point tochkaPryamogoUgla(Point p1, Point p2) {
-        Point pB = new Point(p2.x, p1.y);
-        return pB;
+        return new Point(p2.x, p1.y);
     }
 
 }
